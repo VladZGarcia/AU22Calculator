@@ -18,12 +18,11 @@
     border-radius: 5px;
 }
 
-.calc_number {
+.calc_number, .calc_sign {
     display: inline-block;
     background-color: darksalmon;
     width: 20px;
     margin-top: 5px;
-    /*padding: 10px;*/
     padding-left: 15px;
     padding-right: 5px;
     padding-top: 10px;
@@ -33,16 +32,8 @@
 }
 
 .calc_sign {
-    display: inline-block;
     background-color: lightsalmon;
-    width: 20px;
-    margin-top: 5px;
-    /*padding: 10px;*/
-    padding-left: 15px;
-    padding-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: solid 1px black;
+    margin-top: 7px;
     border-radius: 5px;
 }
 
@@ -54,6 +45,11 @@
     transform: translate3d(3px, 3px, 0px);
 }
 
+.calc_row {
+    display: flex;
+    justify-content: space-around;
+}
+
 #result_block {
     background-color: azure;
     display: block;
@@ -61,6 +57,4 @@
     right: 30px;
     width: 200px;
     height: 500px;
-    //display i result
-
 }
